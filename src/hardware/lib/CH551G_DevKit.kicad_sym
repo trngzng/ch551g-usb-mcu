@@ -1,0 +1,2698 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "BK2125HS101_T"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FB"
+			(at 1.905 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ohm/900mA"
+			(at 1.905 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/bk2125hs101-t-ferrite-beads-100-ohm-0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "bk2125hs101"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BK2125HS101_T_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.7874)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.889) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BK2125HS101_T_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Ceramic_SMD_0603_100n_16V"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/16V/0603"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-100nf-0-1uf-16v"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "c ceramic smd 0603 100n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0603_100n_16V_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0603_100n_16V_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Ceramic_SMD_0603_10u_16V"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/16V/0603"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "c ceramic smd 0603 10u"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0603_10u_16V_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0603_10u_16V_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Ceramic_SMD_0603_22nF_50V"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22nF/0603/50V"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/tu-gom-0603-22nf-50v"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "c ceramic smd 0603 22nf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0603_22nF_50V_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0603_22nF_50V_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Ceramic_SMD_0805_1u_LowESR"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF/X7R/0805"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "c ceramic smd 0603 1u low"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0805_1u_LowESR_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Ceramic_SMD_0805_1u_LowESR_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_Tantalum_SMD_1206_1uF_16V"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF/1206/16V"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/tu-tantalum-1uf-16v-1206-taja105k016rnj"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "c tanta smd 1uf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Tantalum_SMD_1206_1uF_16V_0_1"
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Tantalum_SMD_1206_1uF_16V_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RT9193_33GB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT9193_33GB"
+			(at 9.398 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 -23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.vn/datasheet/2/1458/DS9193_18-3104722.pdf"
+			(at 0.254 -21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA, Ultra-Low Noise, Ultra-Fast CMOS LDO Regulator"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/rt9193-33gb-ic-on-ap-3-3v-300ma"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "rt9193"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RT9193_33GB_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "RT9193_33GB_1_0"
+			(polyline
+				(pts
+					(xy -2.0779 -0.9388) (xy -2.3601 -0.9388) (xy -2.3601 -0.0004) (xy -2.0779 -0.0004) (xy -2.0779 -0.9388)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.1261 -0.0018) (xy 1.6835 -0.0039) (xy 1.6835 -0.2438) (xy 1.4788 -0.246) (xy 1.2735 -0.2474)
+					(xy 1.2735 -0.9388) (xy 0.9842 -0.9388) (xy 0.9842 -0.2474) (xy 0.568 -0.2474) (xy 0.568 -0.0004)
+					(xy 1.1261 -0.0018)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.8187 -0.2227) (xy 2.4553 -0.2206) (xy 2.092 -0.2191) (xy 2.092 -0.3673) (xy 2.4222 -0.3687)
+					(xy 2.7517 -0.3708) (xy 2.7538 -0.471) (xy 2.7559 -0.5719) (xy 2.092 -0.5719) (xy 2.092 -0.7201)
+					(xy 2.4645 -0.7215) (xy 2.8363 -0.7236) (xy 2.8384 -0.8309) (xy 2.8406 -0.9388) (xy 1.8027 -0.9388)
+					(xy 1.8027 -0.0004) (xy 2.8187 -0.0004) (xy 2.8187 -0.2227)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.302 -0.0018) (xy 0.4445 -0.0039) (xy 0.4466 -0.471) (xy 0.448 -0.9388) (xy 0.1587 -0.9388)
+					(xy 0.1573 -0.7638) (xy 0.1552 -0.5896) (xy -0.1214 -0.5874) (xy -0.3986 -0.586) (xy -0.3986 -0.9388)
+					(xy -0.6914 -0.9388) (xy -0.6893 -0.4696) (xy -0.6879 -0.0004) (xy -0.5447 -0.0018) (xy -0.4022 -0.0039)
+					(xy -0.4 -0.1782) (xy -0.3986 -0.3532) (xy 0.1587 -0.3532) (xy 0.1587 -0.0004) (xy 0.302 -0.0018)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2434 -0.2975) (xy 3.2456 -0.5945) (xy 3.4607 -0.4047) (xy 3.7987 -0.1077) (xy 3.9208 -0.0004)
+					(xy 4.1155 -0.0004) (xy 4.1545 -0.0005) (xy 4.1907 -0.0009) (xy 4.2231 -0.0015) (xy 4.2511 -0.0022)
+					(xy 4.2739 -0.003) (xy 4.2907 -0.004) (xy 4.2966 -0.0045) (xy 4.3007 -0.005) (xy 4.303 -0.0055)
+					(xy 4.3033 -0.0058) (xy 4.3032 -0.0061) (xy 4.0605 -0.2191) (xy 3.9229 -0.3398) (xy 3.886 -0.3722)
+					(xy 3.8558 -0.3987) (xy 3.8319 -0.42) (xy 3.8221 -0.4288) (xy 3.8136 -0.4365) (xy 3.8064 -0.4432)
+					(xy 3.8004 -0.4489) (xy 3.7955 -0.4536) (xy 3.7916 -0.4576) (xy 3.7888 -0.4607) (xy 3.7868 -0.4631)
+					(xy 3.7861 -0.4641) (xy 3.7857 -0.4649) (xy 3.7854 -0.4656) (xy 3.7853 -0.4661) (xy 3.7899 -0.4709)
+					(xy 3.8033 -0.4828) (xy 3.8522 -0.5243) (xy 3.9246 -0.5844) (xy 4.0132 -0.6566) (xy 4.1845 -0.7969)
+					(xy 4.2444 -0.8463) (xy 4.2895 -0.8837) (xy 4.3216 -0.9106) (xy 4.3332 -0.9206) (xy 4.3423 -0.9285)
+					(xy 4.349 -0.9346) (xy 4.3535 -0.9389) (xy 4.356 -0.9416) (xy 4.3566 -0.9425) (xy 4.3568 -0.943)
+					(xy 4.3526 -0.9436) (xy 4.3405 -0.9441) (xy 4.2961 -0.945) (xy 4.2306 -0.9456) (xy 4.1508 -0.9459)
+					(xy 3.9441 -0.9452) (xy 3.8171 -0.8393) (xy 3.7112 -0.7513) (xy 3.635 -0.6876) (xy 3.58 -0.6411)
+					(xy 3.5045 -0.7074) (xy 3.4488 -0.7556) (xy 3.4302 -0.772) (xy 3.4243 -0.7772) (xy 3.4212 -0.7801)
+					(xy 3.2815 -0.9028) (xy 3.2399 -0.9388) (xy 2.9527 -0.9388) (xy 2.9527 -0.0004) (xy 3.242 -0.0004)
+					(xy 3.2434 -0.2975)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.8505 -0.001) (xy -0.8297 -0.002) (xy -0.8213 -0.0032) (xy -0.8208 -0.0062) (xy -0.8204 -0.0138)
+					(xy -0.8199 -0.0406) (xy -0.8199 -0.0796) (xy -0.8206 -0.1267) (xy -0.8227 -0.2467) (xy -1.1522 -0.2488)
+					(xy -1.2598 -0.2495) (xy -1.3416 -0.2503) (xy -1.3741 -0.2507) (xy -1.4017 -0.2512) (xy -1.4249 -0.2519)
+					(xy -1.4442 -0.2527) (xy -1.4526 -0.2531) (xy -1.4602 -0.2536) (xy -1.4671 -0.2541) (xy -1.4733 -0.2547)
+					(xy -1.479 -0.2554) (xy -1.4841 -0.2561) (xy -1.4889 -0.2569) (xy -1.4932 -0.2577) (xy -1.4972 -0.2586)
+					(xy -1.501 -0.2596) (xy -1.5045 -0.2606) (xy -1.508 -0.2618) (xy -1.5148 -0.2643) (xy -1.5219 -0.2671)
+					(xy -1.5316 -0.2714) (xy -1.5412 -0.2763) (xy -1.5509 -0.2817) (xy -1.5604 -0.2876) (xy -1.5698 -0.294)
+					(xy -1.579 -0.3008) (xy -1.588 -0.3079) (xy -1.5967 -0.3154) (xy -1.605 -0.3233) (xy -1.613 -0.3313)
+					(xy -1.6206 -0.3396) (xy -1.6277 -0.3481) (xy -1.6342 -0.3567) (xy -1.6402 -0.3654) (xy -1.6456 -0.3741)
+					(xy -1.6503 -0.3828) (xy -1.6548 -0.3925) (xy -1.6587 -0.4028) (xy -1.662 -0.4135) (xy -1.6647 -0.4246)
+					(xy -1.6669 -0.4361) (xy -1.6684 -0.4478) (xy -1.6694 -0.4597) (xy -1.6698 -0.4716) (xy -1.6696 -0.4836)
+					(xy -1.6688 -0.4956) (xy -1.6674 -0.5074) (xy -1.6655 -0.5191) (xy -1.6629 -0.5304) (xy -1.6598 -0.5414)
+					(xy -1.656 -0.552) (xy -1.6517 -0.562) (xy -1.6474 -0.5703) (xy -1.6423 -0.5788) (xy -1.6365 -0.5873)
+					(xy -1.6299 -0.5958) (xy -1.6227 -0.6043) (xy -1.615 -0.6128) (xy -1.6067 -0.6211) (xy -1.598 -0.6292)
+					(xy -1.5889 -0.637) (xy -1.5795 -0.6445) (xy -1.5699 -0.6517) (xy -1.5601 -0.6584) (xy -1.5502 -0.6646)
+					(xy -1.5403 -0.6703) (xy -1.5303 -0.6754) (xy -1.5205 -0.6799) (xy -1.507 -0.6848) (xy -1.4922 -0.6886)
+					(xy -1.4719 -0.6915) (xy -1.4423 -0.6936) (xy -1.3994 -0.6952) (xy -1.3393 -0.6965) (xy -1.1515 -0.6989)
+					(xy -0.8213 -0.7024) (xy -0.8199 -0.821) (xy -0.8184 -0.9395) (xy -1.1677 -0.9374) (xy -1.2994 -0.9363)
+					(xy -1.3532 -0.9357) (xy -1.4001 -0.9348) (xy -1.4407 -0.9336) (xy -1.4758 -0.932) (xy -1.5062 -0.9298)
+					(xy -1.5327 -0.9271) (xy -1.5447 -0.9255) (xy -1.556 -0.9236) (xy -1.5667 -0.9216) (xy -1.5769 -0.9194)
+					(xy -1.5867 -0.9169) (xy -1.5961 -0.9143) (xy -1.6054 -0.9113) (xy -1.6145 -0.9081) (xy -1.6327 -0.9009)
+					(xy -1.6515 -0.8925) (xy -1.6717 -0.8828) (xy -1.694 -0.8718) (xy -1.7145 -0.8612) (xy -1.7344 -0.8496)
+					(xy -1.7539 -0.8371) (xy -1.7728 -0.8237) (xy -1.7911 -0.8096) (xy -1.8087 -0.7946) (xy -1.8255 -0.779)
+					(xy -1.8416 -0.7627) (xy -1.8568 -0.7458) (xy -1.8711 -0.7285) (xy -1.8844 -0.7107) (xy -1.8967 -0.6925)
+					(xy -1.908 -0.674) (xy -1.9181 -0.6552) (xy -1.927 -0.6362) (xy -1.9346 -0.6171) (xy -1.9389 -0.6042)
+					(xy -1.9428 -0.5906) (xy -1.9462 -0.5763) (xy -1.9491 -0.5614) (xy -1.9516 -0.546) (xy -1.9537 -0.5302)
+					(xy -1.9553 -0.5142) (xy -1.9564 -0.4979) (xy -1.9571 -0.4816) (xy -1.9573 -0.4653) (xy -1.957 -0.449)
+					(xy -1.9562 -0.433) (xy -1.9549 -0.4173) (xy -1.9531 -0.402) (xy -1.9508 -0.3872) (xy -1.948 -0.373)
+					(xy -1.9385 -0.3366) (xy -1.9263 -0.3019) (xy -1.9116 -0.269) (xy -1.8943 -0.2377) (xy -1.8744 -0.2083)
+					(xy -1.8522 -0.1806) (xy -1.8275 -0.1549) (xy -1.8004 -0.1309) (xy -1.771 -0.109) (xy -1.7393 -0.0889)
+					(xy -1.7054 -0.0709) (xy -1.6692 -0.0549) (xy -1.6309 -0.0409) (xy -1.5905 -0.029) (xy -1.548 -0.0193)
+					(xy -1.5035 -0.0117) (xy -1.4571 -0.0084) (xy -1.3725 -0.0054) (xy -1.1428 -0.0011) (xy -0.9229 0)
+					(xy -0.8505 -0.001)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.4128 -0.0011) (xy -3.2727 -0.0016) (xy -3.1606 -0.0027) (xy -3.1137 -0.0035) (xy -3.0721 -0.0046)
+					(xy -3.0353 -0.0059) (xy -3.0028 -0.0076) (xy -2.974 -0.0096) (xy -2.9484 -0.0119) (xy -2.9254 -0.0147)
+					(xy -2.9044 -0.0179) (xy -2.8849 -0.0216) (xy -2.8664 -0.0257) (xy -2.8482 -0.0304) (xy -2.83 -0.0357)
+					(xy -2.809 -0.0426) (xy -2.7884 -0.0504) (xy -2.7683 -0.0592) (xy -2.7487 -0.0689) (xy -2.7297 -0.0794)
+					(xy -2.7115 -0.0907) (xy -2.694 -0.1026) (xy -2.6774 -0.1152) (xy -2.6618 -0.1283) (xy -2.6471 -0.142)
+					(xy -2.6336 -0.156) (xy -2.6212 -0.1705) (xy -2.6101 -0.1853) (xy -2.6004 -0.2004) (xy -2.596 -0.208)
+					(xy -2.592 -0.2157) (xy -2.5884 -0.2234) (xy -2.5852 -0.2311) (xy -2.5804 -0.2435) (xy -2.5784 -0.2494)
+					(xy -2.5766 -0.2553) (xy -2.575 -0.2611) (xy -2.5736 -0.2671) (xy -2.5724 -0.2733) (xy -2.5714 -0.2797)
+					(xy -2.5706 -0.2866) (xy -2.5699 -0.2939) (xy -2.5689 -0.3104) (xy -2.5684 -0.3299) (xy -2.5682 -0.3532)
+					(xy -2.5683 -0.3791) (xy -2.5684 -0.39) (xy -2.5687 -0.3997) (xy -2.5691 -0.4083) (xy -2.5696 -0.416)
+					(xy -2.5704 -0.4231) (xy -2.5714 -0.4296) (xy -2.5727 -0.4357) (xy -2.5742 -0.4416) (xy -2.5761 -0.4474)
+					(xy -2.5783 -0.4534) (xy -2.581 -0.4596) (xy -2.584 -0.4663) (xy -2.5915 -0.4816) (xy -2.5972 -0.4928)
+					(xy -2.6036 -0.5039) (xy -2.6105 -0.5148) (xy -2.6181 -0.5256) (xy -2.6261 -0.5362) (xy -2.6346 -0.5465)
+					(xy -2.6436 -0.5566) (xy -2.6531 -0.5665) (xy -2.6629 -0.5759) (xy -2.6732 -0.5851) (xy -2.6838 -0.5939)
+					(xy -2.6947 -0.6023) (xy -2.7059 -0.6102) (xy -2.7174 -0.6177) (xy -2.7291 -0.6247) (xy -2.7411 -0.6312)
+					(xy -2.7509 -0.6364) (xy -2.7601 -0.6415) (xy -2.7685 -0.6462) (xy -2.7758 -0.6505) (xy -2.779 -0.6524)
+					(xy -2.7819 -0.6542) (xy -2.7844 -0.6559) (xy -2.7865 -0.6573) (xy -2.7882 -0.6585) (xy -2.7894 -0.6595)
+					(xy -2.7902 -0.6603) (xy -2.7904 -0.6606) (xy -2.7905 -0.6608) (xy -2.7897 -0.6631) (xy -2.786 -0.6673)
+					(xy -2.7777 -0.6749) (xy -2.763 -0.6876) (xy -2.7065 -0.7344) (xy -2.6021 -0.8203) (xy -2.4582 -0.9388)
+					(xy -2.8766 -0.9388) (xy -2.9168 -0.9049) (xy -2.9401 -0.8851) (xy -2.9743 -0.8565) (xy -3.0148 -0.8231)
+					(xy -3.0572 -0.7885) (xy -3.1574 -0.706) (xy -3.5172 -0.706) (xy -3.5172 -0.9388) (xy -3.81 -0.9388)
+					(xy -3.8086 -0.4717) (xy -3.8076 -0.2467) (xy -3.525 -0.2467) (xy -3.5228 -0.3546) (xy -3.5207 -0.4626)
+					(xy -3.2456 -0.4626) (xy -3.1549 -0.4625) (xy -3.118 -0.4624) (xy -3.0862 -0.4623) (xy -3.059 -0.462)
+					(xy -3.0359 -0.4617) (xy -3.0165 -0.4611) (xy -3.0081 -0.4608) (xy -3.0004 -0.4604) (xy -2.9934 -0.46)
+					(xy -2.987 -0.4595) (xy -2.9812 -0.459) (xy -2.976 -0.4584) (xy -2.9712 -0.4578) (xy -2.9668 -0.4571)
+					(xy -2.9627 -0.4563) (xy -2.959 -0.4554) (xy -2.9555 -0.4545) (xy -2.9522 -0.4535) (xy -2.949 -0.4524)
+					(xy -2.9459 -0.4512) (xy -2.9397 -0.4486) (xy -2.933 -0.4456) (xy -2.9238 -0.4413) (xy -2.9153 -0.4369)
+					(xy -2.9075 -0.4324) (xy -2.9003 -0.4277) (xy -2.8938 -0.4229) (xy -2.8879 -0.4179) (xy -2.8852 -0.4153)
+					(xy -2.8826 -0.4127) (xy -2.8802 -0.4101) (xy -2.878 -0.4073) (xy -2.8759 -0.4046) (xy -2.8739 -0.4017)
+					(xy -2.8721 -0.3989) (xy -2.8704 -0.3959) (xy -2.8689 -0.3929) (xy -2.8675 -0.3898) (xy -2.8662 -0.3867)
+					(xy -2.8651 -0.3835) (xy -2.8642 -0.3802) (xy -2.8633 -0.3769) (xy -2.8626 -0.3735) (xy -2.862 -0.37)
+					(xy -2.8616 -0.3665) (xy -2.8613 -0.3628) (xy -2.861 -0.3553) (xy -2.8612 -0.3475) (xy -2.8619 -0.3401)
+					(xy -2.8623 -0.3365) (xy -2.8629 -0.333) (xy -2.8636 -0.3296) (xy -2.8644 -0.3262) (xy -2.8653 -0.323)
+					(xy -2.8663 -0.3198) (xy -2.8674 -0.3167) (xy -2.8687 -0.3136) (xy -2.87 -0.3106) (xy -2.8715 -0.3077)
+					(xy -2.873 -0.3049) (xy -2.8747 -0.3021) (xy -2.8765 -0.2994) (xy -2.8784 -0.2968) (xy -2.8804 -0.2942)
+					(xy -2.8826 -0.2918) (xy -2.8848 -0.2893) (xy -2.8872 -0.2869) (xy -2.8897 -0.2846) (xy -2.8923 -0.2824)
+					(xy -2.895 -0.2802) (xy -2.8979 -0.2781) (xy -2.9008 -0.276) (xy -2.9039 -0.274) (xy -2.9104 -0.2701)
+					(xy -2.9175 -0.2664) (xy -2.9286 -0.2615) (xy -2.9409 -0.2577) (xy -2.958 -0.2549) (xy -2.9834 -0.2528)
+					(xy -3.0204 -0.2514) (xy -3.0727 -0.2503) (xy -3.2371 -0.2488) (xy -3.525 -0.2467) (xy -3.8076 -0.2467)
+					(xy -3.8065 -0.0018) (xy -3.6908 -0.0009) (xy -3.4128 -0.0011)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "RT9193_33GB_1_1"
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "BP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_0402_0_1%"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -3.683 2.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0/1%/1_16W"
+			(at -3.683 3.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at -22.86 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-0-ohm-0402-1-"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "r 0402 0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0402_0_1%_1_1"
+			(polyline
+				(pts
+					(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_0402_100_1%"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -3.683 2.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100/1%/1_16W"
+			(at -3.683 3.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at -22.86 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-100-ohm-0402-1-"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "r 0402 100"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0402_100_1%_1_1"
+			(polyline
+				(pts
+					(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_0402_10K_1%"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -3.683 2.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K/1%/1_16W"
+			(at -3.683 3.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at -22.86 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-10-kohm-0402-1-"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "r 0402 10k"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0402_10K_1%_1_1"
+			(polyline
+				(pts
+					(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "R_0402_470_1%"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -3.683 2.413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470/1%/1_16W"
+			(at -3.683 3.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at -22.86 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/dien-tro-470-ohm-0402-1-"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "r 0402 470"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0402_470_1%_1_1"
+			(polyline
+				(pts
+					(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SMF05C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMF05C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.thegioiic.com/upload/documents/d6b4465a77a236d1b7329f09e725ca32.pdf"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5-Line ESD Protection Diode Array"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/smf05c-esd-protection-diode-array-sot-363"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "smf05c"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMF05C_0_0"
+			(rectangle
+				(start -13.97 -2.54)
+				(end 13.97 -8.636)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.938 -3.81) (xy -12.7 -4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -6.35) (xy -10.16 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.382 -3.81) (xy -7.62 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -6.35) (xy -3.175 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.858 -3.81) (xy -7.62 -4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -6.35) (xy -5.08 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -3.81) (xy -6.985 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -3.81) (xy -2.54 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -6.35) (xy -5.08 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -6.35) (xy 1.905 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -3.81) (xy -2.286 -4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 0 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy -1.905 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -6.35) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -3.81) (xy 2.794 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -6.35) (xy 6.985 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 -3.81) (xy 2.794 -4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.35) (xy 5.08 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -3.81) (xy 3.175 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -6.35) (xy 5.08 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 -3.81) (xy 7.874 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 -6.35) (xy 12.065 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.636 -3.81) (xy 7.874 -4.445)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -6.35) (xy 10.16 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -3.81) (xy 8.255 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.065 -6.35) (xy 10.16 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.192 -3.81) (xy 12.954 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SMF05C_1_1"
+			(polyline
+				(pts
+					(xy -10.16 -3.81) (xy -10.16 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.382 -3.81) (xy -11.938 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -3.81) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 -3.81) (xy -6.858 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -8.89) (xy 0 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -3.81) (xy -1.524 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -3.81) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 -3.81) (xy 3.556 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -7.62) (xy -10.16 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -3.81) (xy 10.16 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.192 -3.81) (xy 8.636 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -3.81) (xy -12.192 -6.35) (xy -8.128 -6.35) (xy -10.16 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -3.81) (xy -7.112 -6.35) (xy -3.048 -6.35) (xy -5.08 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy -2.032 -6.35) (xy 2.032 -6.35) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -3.81) (xy 3.048 -6.35) (xy 7.112 -6.35) (xy 5.08 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -3.81) (xy 8.128 -6.35) (xy 12.192 -6.35) (xy 10.16 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
+		)
+	)
+	(symbol "SW_Push"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CH551G_DevKit:SW_SMD"
+			(at -0.254 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supply URL" "https://www.thegioiic.com/nut-nhan-3x4mm-cao-2-5mm-2-chan-smd"
+			(at 0.254 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)

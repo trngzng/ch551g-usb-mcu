@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CH551G_DevKit")(type "KiCad")(uri "E:/00_self-learning/1_ch551g-devkit/src/hardware/lib/CH551G_DevKit.pretty")(options "")(descr ""))
+)
