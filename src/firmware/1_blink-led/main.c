@@ -12,77 +12,62 @@
  */
 
 /* Includes ----------------------------------------------------------- */
-
+#include "ch552.h"
 /* Private defines ---------------------------------------------------- */
-#define PRIVATE_DEFINE_1  (0) /*!< Description of PRIVATE_DEFINE_1 */
-#define PRIVATE_DEFINE_2  (0) /*!< Description of PRIVATE_DEFINE_2 */
 
 /* Private enumerate/structure ---------------------------------------- */
-/**
- * @brief <enum descriptiton>
- */
-typedef enum 
-{
-  PRIVATE_ENUM_1, /**< Description of PRIVATE_ENUM_1 */
-  PRIVATE_ENUM_2, /**< Description of PRIVATE_ENUM_2 */
-  PRIVATE_ENUM_3  /**< Description of PRIVATE_ENUM_3 */
-} private_enum_type_t;
-
-/**
- * @brief <structure descriptiton>
- */
-typedef struct 
-{
-  uint32_t member_1, /**< Description of member_1 */
-  uint32_t member_2, /**< Description of member_2 */
-  uint32_t member_3  /**< Description of member_3 */
-} private_struct_type_t;
 
 /* Private macros ----------------------------------------------------- */
-/**
- * @brief  <macro description>
- *
- * @param[in]     <param_name>  <param_despcription>
- * @param[out]    <param_name>  <param_despcription>
- * @param[inout]  <param_name>  <param_despcription>
- *
- * @attention  <API attention note>
- *
- * @return  
- *  - 0: Success
- *  - 1: Error
- */
-#define PRIVATE_MACRO(a)  do_something_with(a)
 
 /* Public variables --------------------------------------------------- */
-int g_var_1;
-int g_var_2;
 
 /* Private variables -------------------------------------------------- */
-static int var_1; /**< Description of private variable var_1 */
-static int var_2; /**< Description of private variable var_2 */
 
 /* Private function prototypes ---------------------------------------- */
 /**
- * @brief  <function description>
+ * @brief  Delay the processing using timer overflow
  *
- * @param[in]     <param_name>  <param_despcription>
- * @param[out]    <param_name>  <param_despcription>
- * @param[inout]  <param_name>  <param_despcription>
- *
- * @attention  <API attention note>
+ * @param[in]     ms  Delay time in microsecond
  *
  * @return  
- *  - 0: Success
- *  - 1: Error
+ *  - none
  */
-static void private_function(void);
+static void delay_ms(uint16_t ms);
 /* Function definitions ----------------------------------------------- */
-void public_function(void)
+void main(void)
 {
+  /* Clock configuration fCLK = 6MHz  */
+	SAFE_MOD = 0x55;  // Enter the safe mode
+	SAFE_MOD = 0xAA;
+	CLOCK_CFG = 0x86; // Write new value refer the Table in the datasheet
+	SAFE_MOD = 0x00;  // Terminate the safe mode
+
+  /* Configure P3.3: Output, push-pull */
+  P3_MOD_OC &= ~(1 << 3);
+	P3_DIR_PU |= (1 << 3);
+
+  while(1)
+  {
+    P3 |= (1 << 3);
+    delay_ms(1000);
+    P3 &= ~(1 << 3);
+    delay_ms(1000);
+  }
 }
 /* Private definitions ------------------------------------------------ */
-static void private_function(void)
+static void delay_ms(uint16_t ms)
 {
+	while (ms) 
+  {
+		TF0 = 0;      // Clear Timer0 OVF flag
+    // Timer frequency is Fsys/12 = 500kHz = 0.002ms
+		TH0 = 0xA2;   // Timer counter = 500
+		TL0 = 0x40;
+		TR0 = 1;      // Start Timer0
+		while (!TF0);
+		TR0 = 0;      // Stop Timer0
+		--ms;
+	}
 }
+
 /* End of file -------------------------------------------------------- */
