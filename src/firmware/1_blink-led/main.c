@@ -36,7 +36,7 @@ static void delay_ms(uint16_t ms);
 /* Function definitions ----------------------------------------------- */
 void main(void)
 {
-  /* Clock configuration fCLK = 6MHz  */
+  /* Clock configuration fCLK = 24MHz  */
 	SAFE_MOD = 0x55;  // Enter the safe mode
 	SAFE_MOD = 0xAA;
 	CLOCK_CFG = 0x86; // Write new value refer the Table in the datasheet
@@ -57,15 +57,16 @@ void main(void)
 /* Private definitions ------------------------------------------------ */
 static void delay_ms(uint16_t ms)
 {
+	TMOD |= (1 << bT1_M0);	// 16-bit timer mode
+
 	while (ms) 
   {
-		TF0 = 0;      // Clear Timer0 OVF flag
-    // Timer frequency is Fsys/12 = 500kHz = 0.002ms
-		TH0 = 0xA2;   // Timer counter = 500
-		TL0 = 0x40;
-		TR0 = 1;      // Start Timer0
-		while (!TF0);
-		TR0 = 0;      // Stop Timer0
+    // Timer frequency is Fsys/12 = 2Mhz = 0.5us
+		TH0 = 0;   // Timer counter = 2000
+		TL0 = 0;
+		TR0 = 1;   // Start Timer0
+		while ((TH0 << 8 | TL0) < 2000);
+		TR0 = 0;   // Stop Timer0
 		--ms;
 	}
 }
